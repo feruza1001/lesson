@@ -305,9 +305,6 @@ body {
   flex-shrink: 0;
   padding: 40px;
 }
-.main .main1 .main1:hover {
-  transform: translateY(-20px);
-}
 .main .main2 {
   background-image: url(../img/main2.png);
   width: 360px;
