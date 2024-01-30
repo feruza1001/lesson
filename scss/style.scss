@@ -123,6 +123,11 @@ border-radius: 15px;
 background: var(--Black, #151515);
 color: #fff;
 }
+.img_min{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 .img1{
   img{
     width: 100%;
@@ -174,6 +179,12 @@ p{
       img{
         display: block;
       }
+    }
+    .img_min{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
