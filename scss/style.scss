@@ -346,6 +346,9 @@ fill: #2C7566;
 }
 
 @media(max-width:1200px){
+  .container{
+    margin: 0 auto;
+  }
   .header{
     // max-width: 375px;
     // height: 538px;
