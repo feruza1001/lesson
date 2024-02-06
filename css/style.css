@@ -92,7 +92,8 @@
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
-  line-height: 80px; /* 83.333% */
+  line-height: 80px;
+  /* 83.333% */
   letter-spacing: -2px;
 }
 .big .big_0 .big1 p {
@@ -509,6 +510,38 @@
     letter-spacing: -0.03em;
     color: #fff;
   }
+  .info .info1 .min h2 {
+    display: none;
+  }
+  .info .info1 .miin h3 {
+    margin-top: -43px;
+  }
+  .info .info2 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(../img/street2.png);
+    max-width: 573px;
+    height: 240px;
+  }
+  .info .info2 .min h2 {
+    display: none;
+  }
+  .info .info2 .miin h3 {
+    margin-top: -43px;
+  }
+  .info .info3 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(../img/street3.png);
+    max-width: 573px;
+    height: 240px;
+  }
+  .info .info3 .min h2 {
+    display: none;
+  }
+  .info .info3 .miin h3 {
+    margin-top: -43px;
+  }
   .footer {
     display: flex;
     flex-direction: column;
@@ -543,12 +576,6 @@
     height: 72px;
   }
   .promo .promo_min {
-    display: none;
-  }
-  .info .min {
-    display: none;
-  }
-  .info .min h2 {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
