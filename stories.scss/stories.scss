@@ -68,3 +68,225 @@ height: 40px;
     display: none;
 }
 }
+.big{
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 56px;
+    h2{
+        font-weight: 700;
+font-size: 32px;
+line-height: 125%;
+color: #fff;
+    }
+    h3{
+        font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+color: #fff;
+opacity: 0.75;
+
+    }
+    .big1{
+        background-image: url(../img/famous4.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big2{
+        background-image: url(../img/famous5.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big3{
+        background-image: url(../img/famous6.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big4{
+        background-image: url(../img/famous7.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big5{
+        background-image: url(../img/Bitmap\ \(1\).png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big6{
+        background-image: url(../img/Bitmap\ \(3\).png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big7{
+        background-image: url(../img/famous8.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big8{
+        background-image: url(../img/famous9.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big9{
+        background-image: url(../img/famous10.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+
+    }
+    .big10{
+        background-image: url(../img/famous11.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big11{
+        background-image: url(../img/famous12.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+    .big12{
+        background-image: url(../img/famous14.png);
+        width: 100%;
+        max-width: 350px;
+        height: 560px;
+        padding: 450px 0px 40px 40px;
+    }
+}
+@media(max-width:650px){
+    .container{
+        max-width: 615px;
+        padding: 0 20px;
+    }
+    .big{
+
+      .big1{
+        background-image: url(../img/rat1.png);
+        max-width: 573px;
+        height: 240px;
+        padding: 145px 0px 0px 40px;
+      }
+      .big2{
+        background-image: url(../img/rat2.png);
+        max-width: 573px;
+        height: 240px;
+        padding: 145px 0px 0px 40px;
+      }
+.big3{
+    background-image: url(../img/rat3.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big4{
+    background-image: url(../img/rat4.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big5{
+    background-image: url(../img/rat5.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big6{
+    background-image: url(../img/rat6.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big7{
+    background-image: url(../img/rat7.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big8{
+    background-image: url(../img/rat8.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big9{
+    background-image: url(../img/rat9.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big10{
+    background-image: url(../img/rat10.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big11{
+    background-image: url(../img/rat11.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+  .big12{
+    background-image: url(../img/rat12.png);
+    max-width: 573px;
+    height: 240px;
+    padding: 145px 0px 0px 40px;
+  }
+}
+
+    }
+    @media(max-width:500px){
+        .header{
+            display: flex;
+            justify-content: space-between;
+            .head_img{
+                img{
+                    max-width: 77px;
+        height: 32px;
+                }
+            }
+            .head_min{
+                display: none;
+               ul{
+                display: none;
+                li{
+                    display: none;
+                    a{
+                        display: none;
+                    }
+                }
+               }
+            }
+            .three{
+                display: block;
+            }
+        }
+        .big{
+            .big1{
+                max-width: 311px;
+                height: 240px; 
+            }
+        }
+    }

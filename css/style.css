@@ -545,6 +545,9 @@
   .promo .promo_min {
     display: none;
   }
+  .info .min {
+    display: none;
+  }
   .info .min h2 {
     display: none;
   }
