@@ -168,6 +168,83 @@
   padding: 450px 0px 40px 40px;
 }
 
+.footer {
+  margin-top: 200px;
+}
+.footer .bg-grey {
+  width: 100%;
+  max-width: 984px;
+  background: #eeeff4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .bg-grey .footer-nav {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .bg-grey .footer-nav .footer1 {
+  padding: 49px 32px;
+  background: #1b1d23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .bg-grey .footer-nav .footer1 img {
+  width: 100%;
+  max-width: 96px;
+  height: 40px;
+}
+.footer .bg-grey .footer-nav .footer2 {
+  width: 100%;
+  max-width: 313px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .bg-grey .footer-nav .footer2 li {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #7d828f;
+  text-decoration: none;
+  list-style: none;
+}
+.footer .bg-grey .footer-nav .footer2 li a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #7d828f;
+}
+.footer .bg-grey .footer-nav .footer2 li a:hover {
+  color: #000;
+}
+.footer .bg-grey .footer-nav .footer2 li:hover {
+  color: #000;
+}
+.footer .footer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  margin-right: -120px;
+  color: #FFF;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  width: 100%;
+  max-width: 252px;
+  height: 72px;
+  background: #1B1D23;
+}
+
 @media (max-width: 650px) {
   .container {
     max-width: 615px;
@@ -245,6 +322,30 @@
     height: 240px;
     padding: 145px 0px 0px 40px;
   }
+  .footer .bg-grey {
+    max-width: 612px;
+    height: 120px;
+  }
+  .footer .bg-grey .footer1 {
+    width: 120px;
+    height: 120px;
+  }
+  .footer .bg-grey .footer1 img {
+    width: 58px;
+    height: 24px;
+  }
+  .footer .bg-grey {
+    width: 612px;
+    height: 120px;
+  }
+  .footer .footer-nav .footer1 {
+    max-width: 120px;
+    height: 120px;
+  }
+  .footer .footer-nav .footer1 img {
+    width: 58px;
+    height: 24px;
+  }
 }
 @media (max-width: 500px) {
   .header {
@@ -271,7 +372,91 @@
     display: block;
   }
   .big .big1 {
+    background-image: url(../img/smell1.png);
     max-width: 311px;
     height: 240px;
+  }
+  .big .big2 {
+    background-image: url(../img/smell2.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big3 {
+    background-image: url(../img/smell3.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big4 {
+    background-image: url(../img/smell4png.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big5 {
+    background-image: url(../img/smell5.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big6 {
+    background-image: url(../img/smell6png.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big7 {
+    background-image: url(../img/famous7.png);
+    max-width: 311px;
+    height: 260px;
+  }
+  .big .big8 {
+    background-image: url(../img/smell8.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big9 {
+    background-image: url(../img/smell10.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big10 {
+    background-image: url(../img/smell11.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big11 {
+    background-image: url(../img/smell2.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .big .big12 {
+    background-image: url(../img/smell3.png);
+    max-width: 311px;
+    height: 240px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer .bg-grey {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 370px;
+    height: 444px;
+  }
+  .footer .bg-grey .footer-nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    height: 444px;
+  }
+  .footer .bg-grey .footer2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=stories.css.map */

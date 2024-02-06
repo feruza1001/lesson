@@ -583,11 +583,14 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    max-width: 370px;
+    height: 444px;
   }
   .footer .bg-grey .footer-nav {
     display: flex;
     flex-direction: column;
     max-width: 370px;
+    height: 444px;
   }
   .footer .bg-grey .footer2 {
     display: flex;
@@ -597,10 +600,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -230px;
-  }
-  .footer .footer3 button {
-    margin-right: -250px;
+    margin-right: 0px;
   }
   .small {
     display: flex;

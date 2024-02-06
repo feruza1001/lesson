@@ -751,10 +751,13 @@
             display: flex;
             flex-direction: column;
             gap: 40px;
+            max-width: 370px;
+            height: 444px;
 .footer-nav{
     display: flex;
     flex-direction: column;
     max-width: 370px;
+    height: 444px;
 }
             .footer2 {
                 display: flex;
@@ -767,10 +770,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-right: -230px;
+            margin-right: 0px;
 
             button {
-                margin-right: -250px;
+        
             }
         }
     }
