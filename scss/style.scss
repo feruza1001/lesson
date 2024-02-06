@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
 .container {
@@ -13,8 +12,20 @@
     // box-sizing: content-box;
     margin: 0 auto;
     padding: 0 50px;
+}
+
+body{
     font-family: "League Spartan", sans-serif;
 }
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    line-height: 0;
+  
+}
+
 
 .header {
     width: 100%;
@@ -87,12 +98,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
     margin-top: 56px;
 
     .big_0 {
-   margin-top: 180px;
-   margin-left: 190px;
+        margin-top: 180px;
+        margin-left: 190px;
         display: flex;
         flex-direction: column;
         // align-items: center;
@@ -142,22 +152,28 @@
                 line-height: 25px;
                 width: 252px;
                 height: 72px;
-                flex-shrink: 0;
+                // flex-shrink: 0;
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
                 color: #fff;
+            }
+            button:hover{
+                background-color: #60636D;
+                
             }
         }
     }
 
     .button_big {
         display: flex;
+        align-items: flex-start;
         margin-top: 105px;
     }
 
     .big3 {
         display: flex;
+        align-items: flex-start;
 
         transform: translateX(-77px);
 
@@ -167,7 +183,6 @@
             height: 80px;
             color: #ffffff;
             background-color: #1b1d23;
-            ;
             text-align: center;
             font-family: "League Spartan";
             font-size: 18px;
@@ -180,17 +195,19 @@
 
     .big4 {
         transform: translatex(-75px);
+        display: flex;
+        // align-items: flex-start;
 
         button {
             width: 80px;
             height: 80px;
-            flex-shrink: 0;
+            // flex-shrink: 0;
             color: #7d828f;
             border: none;
             text-align: center;
             font-family: "League Spartan";
             font-size: 18px;
-            font-style: normal;
+            // font-style: normal;
             font-weight: 700;
             line-height: 25px;
             background: #fff;
@@ -302,6 +319,10 @@
         align-items: center;
         background: #1B1D23;
     }
+    button:hover{
+        background-color: #60636D;
+    
+    }
 }
 
 .small {
@@ -333,6 +354,11 @@
         justify-content: space-around;
         align-items: center;
         background: #1B1D23;
+        
+    }
+    button:hover{
+        background-color: #60636D;
+    
     }
 }
 
@@ -404,81 +430,99 @@
     }
 }
 
+.see-all-2{
+    display: none;
+    color: #FFF;
+    font-family: "League Spartan";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    width: 100%;
+    height: 72px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #1B1D23;
+    margin-top: 24px;
+}
+
 .footer {
-    margin-top: 200px;
+    width: 100%;
+    max-width: 1210px;
+    margin: 200px auto 0;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
 
-    .bg-grey {
-        
-
+    .bg-grey{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
         width: 100%;
         max-width: 984px;
-        background: #eeeff4;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        background: #EEEFF4;
+        margin-right: -120px;
+        padding-right: 140px;
 
-
-       .footer-nav{
-        width: 100%;
-        max-width: 600px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .footer1 {
-            // width: 100%;
-            // max-width: 200px;
-            // height: 200px;
-            padding: 49px 32px;
-
-            background: #1b1d23;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img {
-            
-                width: 100%;
-                max-width: 96px;
-                height: 40px;
-            }
-        }
-
-        .footer2 {
+        .footer-nav {
             width: 100%;
-            max-width: 313px;
+            max-width: 600px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            // gap: 50px;
-
-            li {
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 139%;
-                color: #7d828f;
-                text-decoration: none;
-                list-style: none;
-
-                a {
-                    text-decoration: none;
-                    list-style: none;
+            justify-content: space-between;
+    
+            .footer1 {
+                padding: 49px 32px;
+                background: #1b1d23;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                img {
+                    width: 100%;
+                    max-width: 96px;
+                    height: 40px;
+                }
+            }
+    
+            .footer2 {
+                width: 100%;
+                max-width: 313px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+    
+                li {
                     font-weight: 700;
                     font-size: 18px;
                     line-height: 139%;
                     color: #7d828f;
-
+                    text-decoration: none;
+                    list-style: none;
+    
+                    a {
+                        text-decoration: none;
+                        list-style: none;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 139%;
+                        color: #7d828f;
+    
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+    
                     &:hover {
                         color: #000;
                     }
                 }
-
-                &:hover {
-                    color: #000;
-                }
             }
         }
-       }
-
     }
 
     .footer3 {
@@ -486,9 +530,7 @@
         justify-content: center;
         align-items: center;
         column-gap: 24px;
-        // transform: translatex(120px);
-        // // width: 100%;
-        margin-right: -120px;        
+        // margin-left: -120px;
         color: #FFF;
         font-family: "League Spartan";
         font-size: 18px;
@@ -496,12 +538,12 @@
         line-height: 25px;
         width: 100%;
         max-width: 252px;
-        height: 72px;   
-        // flex-shrink: 0;
-        // display: flex;
-        // justify-content: space-around;
-        // align-items: center;
+        height: 72px;
         background: #1B1D23;
+    }
+    button:hover{
+        background-color: #60636D;
+    
     }
 }
 
@@ -511,21 +553,12 @@
         padding: 0 20px;
     }
 
-    // .big{
-    //     h1{
-    //         font-size: 96px;
-    //         line-height: 83%;
-    //         letter-spacing: -0.02em;
-    //     }
-    //     .big3{
-    //         display: none;
-    //     }
-    // }
     .big {
-        .big_0{
-           margin-left: -5px;
-           padding: 30px;
+        .big_0 {
+            margin-left: -5px;
+            padding: 30px;
         }
+
         .button_big {
             display: none;
         }
@@ -606,36 +639,27 @@
 
     }
 
-            .footer{
-                .bg-grey{
-                    max-width: 612px;
+    .footer {
+        flex-grow: 1;
+        margin: 200px 0 0;
+        padding: 0;
+        .bg-grey {
+            max-width: 612px;
+            gap: 40px;
+            .footer-nav {
+                gap: 40px;
+                .footer1 {
+                    max-width: 120px;
                     height: 120px;
-                    .footer1{
-                        width: 120px;
-    height: 120px;
-    img{
-        width: 58px;
-    height: 24px;
-    }
+    
+                    img {
+                        width: 58px;
+                        height: 24px;
                     }
                 }
             }
-.footer{
-    .bg-grey{
-        width: 612px;
-        height: 120px;
-    }
-   .footer-nav{
-    .footer1{
-        max-width: 120px;
-        height: 120px;
-        img{
-            width: 58px;
-            height: 24px;
         }
     }
-   }
-}
 }
 
 
@@ -691,15 +715,15 @@
 
 
         .info1 {
-            .min{
-                h2{
+            .min {
+                h2 {
                     display: none;
                 }
             }
 
             .miin {
                 h3 {
-                   margin-top: -43px;
+                    margin-top: -43px;
                 }
             }
         }
@@ -710,14 +734,16 @@
             background-image: url(../img/street2.png);
             max-width: 573px;
             height: 240px;
-            .min{
-                h2{
+
+            .min {
+                h2 {
                     display: none;
                 }
             }
+
             .miin {
                 h3 {
-                   margin-top: -43px;
+                    margin-top: -43px;
                 }
             }
         }
@@ -728,67 +754,33 @@
             background-image: url(../img/street3.png);
             max-width: 573px;
             height: 240px;
-            .min{
-                h2{
+
+            .min {
+                h2 {
                     display: none;
                 }
             }
+
             .miin {
                 h3 {
-                   margin-top: -43px;
+                    margin-top: -43px;
                 }
             }
         }
 
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-
-        .bg-grey {
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            max-width: 370px;
-            height: 444px;
-.footer-nav{
-    display: flex;
-    flex-direction: column;
-    max-width: 370px;
-    height: 444px;
-}
-            .footer2 {
-                display: flex;
-                flex-direction: column;
-
-            }
-        }
-
-        .footer3 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 0px;
-
-            button {
-        
-            }
-        }
     }
 
     .small {
         display: flex;
         flex-direction: column;
 
-        button {
-            transform: translatey(970px);
-            margin: 0 auto;
-            width: 300px;
-            height: 72px;
+        button{
+            display: none;
         }
+    }
 
+    .see-all-2{
+        display: flex;
     }
 
     .promo {
@@ -797,4 +789,32 @@
         }
     }
 
+    .footer {
+        flex-direction: column;
+        margin-top: 255;
+        .bg-grey {
+            flex-direction: column;
+            margin-right: 0;
+            padding: 0;
+            
+            .footer-nav {
+                max-width: 600px;
+                flex-direction: column;
+                gap: 0;
+                margin-bottom: 151px;
+
+                .footer1{
+                    transform: translateY(-55px);
+                }
+
+                .footer2 {
+                    flex-direction: column;
+                    gap: 32px;
+                }
+            }
+        }
+        .footer3 {
+            margin: -121px auto 48px;
+        }
+    }
 }

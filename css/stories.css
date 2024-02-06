@@ -65,7 +65,7 @@
   width: 100%;
   max-width: 1110px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
   margin-top: 56px;
 }
@@ -81,6 +81,42 @@
   line-height: 133%;
   color: #fff;
   opacity: 0.75;
+}
+.big .big-nav {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.big .big-nav1 {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.big .big-nav2 {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.big .big-nav3 {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 .big .big1 {
   background-image: url(../img/famous4.png);
@@ -168,15 +204,23 @@
 }
 
 .footer {
-  margin-top: 200px;
+  width: 100%;
+  max-width: 1210px;
+  margin: 200px auto 0;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
 }
 .footer .bg-grey {
-  width: 100%;
-  max-width: 984px;
-  background: #eeeff4;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 984px;
+  background: #EEEFF4;
+  margin-right: -120px;
+  padding-right: 140px;
 }
 .footer .bg-grey .footer-nav {
   width: 100%;
@@ -203,6 +247,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .footer .bg-grey .footer-nav .footer2 li {
   font-weight: 700;
@@ -232,7 +277,6 @@
   align-items: center;
   -moz-column-gap: 24px;
        column-gap: 24px;
-  margin-right: -120px;
   color: #FFF;
   font-family: "League Spartan";
   font-size: 18px;
@@ -244,10 +288,26 @@
   background: #1B1D23;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .container {
     max-width: 615px;
     padding: 0 20px;
+  }
+  .big-nav {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .big-nav1 {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .big-nav2 {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .big-nav3 {
+    flex-direction: column;
+    gap: 24px;
   }
   .big .big1 {
     background-image: url(../img/rat1.png);
@@ -321,32 +381,28 @@
     height: 240px;
     padding: 145px 0px 0px 40px;
   }
+  .footer {
+    flex-grow: 1;
+    margin: 200px 0 0;
+    padding: 0;
+  }
   .footer .bg-grey {
     max-width: 612px;
-    height: 120px;
+    gap: 40px;
   }
-  .footer .bg-grey .footer1 {
-    width: 120px;
-    height: 120px;
+  .footer .bg-grey .footer-nav {
+    gap: 40px;
   }
-  .footer .bg-grey .footer1 img {
-    width: 58px;
-    height: 24px;
-  }
-  .footer .bg-grey {
-    width: 612px;
-    height: 120px;
-  }
-  .footer .footer-nav .footer1 {
+  .footer .bg-grey .footer-nav .footer1 {
     max-width: 120px;
     height: 120px;
   }
-  .footer .footer-nav .footer1 img {
+  .footer .bg-grey .footer-nav .footer1 img {
     width: 58px;
     height: 24px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -431,31 +487,28 @@
     height: 240px;
   }
   .footer {
-    display: flex;
     flex-direction: column;
-    gap: 40px;
+    margin-top: 255;
   }
   .footer .bg-grey {
-    display: flex;
     flex-direction: column;
-    gap: 40px;
-    max-width: 370px;
-    height: 444px;
+    margin-right: 0;
+    padding: 0;
   }
   .footer .bg-grey .footer-nav {
-    display: flex;
+    max-width: 600px;
     flex-direction: column;
-    max-width: 370px;
-    height: 444px;
+    gap: 0;
+    margin-bottom: 151px;
   }
-  .footer .bg-grey .footer2 {
-    display: flex;
+  .footer .bg-grey .footer-nav .footer1 {
+    transform: translateY(-55px);
+  }
+  .footer .bg-grey .footer-nav .footer2 {
     flex-direction: column;
+    gap: 32px;
   }
   .footer .footer3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0px;
+    margin: -121px auto 48px;
   }
 }/*# sourceMappingURL=stories.css.map */
