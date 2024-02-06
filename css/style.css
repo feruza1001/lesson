@@ -75,6 +75,8 @@
   margin-top: 56px;
 }
 .big .big_0 {
+  margin-top: 180px;
+  margin-left: 190px;
   display: flex;
   flex-direction: column;
   gap: 41px;
@@ -122,7 +124,7 @@
 }
 .big .button_big {
   display: flex;
-  margin-top: 283px;
+  margin-top: 105px;
 }
 .big .big3 {
   display: flex;
@@ -421,6 +423,10 @@
   .container {
     max-width: 615px;
     padding: 0 20px;
+  }
+  .big .big_0 {
+    margin-left: -5px;
+    padding: 30px;
   }
   .big .button_big {
     display: none;
