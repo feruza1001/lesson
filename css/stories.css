@@ -96,10 +96,12 @@ body {
   width: 100%;
   max-width: 793px;
   background-color: #FFF;
+  margin-right: -165px;
 }
 .big .bigger0 .run h1 {
   width: 100%;
   max-width: 645px;
+  height: 200px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 250px;
@@ -110,13 +112,16 @@ body {
   margin-left: -20px;
 }
 .big .bigger0 .run .run_min {
-  padding: 0px 160px 2px 180px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 54px;
   margin: 0 auto;
 }
 .big .bigger0 .run .run_min h2 {
+  width: 446px;
+  height: 138px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 72px;
@@ -125,6 +130,8 @@ body {
   color: #1b1d23;
 }
 .big .bigger0 .run .run_min p {
+  width: 445px;
+  height: 96px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
@@ -346,30 +353,10 @@ body {
   .big {
     margin-top: 350px;
   }
-  .big .bigger1 .run {
-    margin-top: 100px;
-    width: 456px;
-    height: 268px;
-  }
-  .big .bigger1 .run h1 {
+  .big .run h1 {
+    width: 390px;
+    height: 200px;
     font-size: 120px;
-  }
-  .big .bigger1 .run h2 {
-    width: 455px;
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 89%;
-    letter-spacing: -0.03em;
-    color: #1b1d23;
-  }
-  .big .bigger1 .run p {
-    width: 455px;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 133%;
-    color: #60636d;
   }
   .big .bigger2 .look {
     display: none;
@@ -410,7 +397,7 @@ body {
     height: 24px;
   }
 }
-@media (max-width: 522px) {
+@media (max-width: 535px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -442,14 +429,19 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .bigger1 {
+  .run {
+    margin-bottom: -30px;
+  }
+  .run h1 {
     display: none;
   }
-  .bigger1 .run {
-    display: none;
+  .run .run_min {
+    width: 320px;
   }
-  .bigger1 .run h1 {
-    display: none;
+  .run .run_min h2 {
+    width: 311px;
+    height: 102px;
+    font-size: 48px;
   }
   .footer {
     flex-direction: column;
