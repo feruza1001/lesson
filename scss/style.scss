@@ -11,7 +11,9 @@
     max-width: 1210px;
     // box-sizing: content-box;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0px 50px;
+   margin-top: -220px;
+   
 }
 
 body{
@@ -32,9 +34,12 @@ button{
     max-width: 1110px;
     margin-top: 55px;
     display: flex;
-
+transform: translatey(220px);
+margin-left: -100px;
     gap: 94px;
-
+    .home_img{
+        transform: translatex(-5px);
+    }
     .head_img {
         img {
             width: 100%;
@@ -194,7 +199,7 @@ button{
     }
 
     .big4 {
-        transform: translatex(-75px);
+        transform: translatex(-80px);
         display: flex;
         // align-items: flex-start;
 
@@ -667,13 +672,7 @@ button{
     .header {
         display: flex;
         justify-content: space-between;
-
-        .head_img {
-            img {
-                max-width: 77px;
-                height: 32px;
-            }
-        }
+       
 
         .head_min {
             display: none;

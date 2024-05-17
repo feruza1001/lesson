@@ -9,7 +9,8 @@
   width: 100%;
   max-width: 1210px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0px 50px;
+  margin-top: -220px;
 }
 
 body {
@@ -28,7 +29,12 @@ button {
   max-width: 1110px;
   margin-top: 55px;
   display: flex;
+  transform: translatey(220px);
+  margin-left: -100px;
   gap: 94px;
+}
+.header .home_img {
+  transform: translatex(-5px);
 }
 .header .head_img img {
   width: 100%;
@@ -157,7 +163,7 @@ button {
   border: none;
 }
 .big .big4 {
-  transform: translatex(-75px);
+  transform: translatex(-80px);
   display: flex;
 }
 .big .big4 button {
@@ -557,10 +563,6 @@ button {
   .header {
     display: flex;
     justify-content: space-between;
-  }
-  .header .head_img img {
-    max-width: 77px;
-    height: 32px;
   }
   .header .head_min {
     display: none;
